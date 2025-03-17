@@ -108,6 +108,15 @@
         margin-bottom: 2rem;
     }
 
+    .text-overlay {
+        position: absolute;
+        top: 12rem;
+    }
+
+    .hero h1 {
+      font-size: 3.2rem;
+    }
+
     @media (max-width: 768px) {
         .hero {
           height: 68vh;
@@ -117,11 +126,9 @@
         .hero h1 {
           font-size: 3rem;
         }
-    }
-
-    .text-overlay {
-        position: absolute;
-        top: 22%;
+        .text-overlay {
+          top: 7rem;
+        }
     }
 
     /* Splide slide styles */
@@ -148,10 +155,6 @@
       max-width: 1200px;
       margin: 0 auto;
       margin-bottom: 3rem;
-    }
-
-    .hero h1 {
-      font-size: 3.2rem;
     }
 
     .about h2, .contact h2 {
