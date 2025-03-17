@@ -27,7 +27,7 @@
         position: relative;
         width: 100vw;
         height: 100vh;
-        background: url('hero-background.jpg') no-repeat center center/cover;
+        background: url('./hero-background.jpg') no-repeat center center/cover;
         display: flex;
         flex-direction: column;
         align-items: center;
