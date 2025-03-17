@@ -71,7 +71,7 @@
     /* Style for the down arrow */
     .down-arrow {
         position: absolute;
-        bottom: 10%;
+        bottom: 12%;
         cursor: pointer;
         background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
         border: none;
@@ -106,6 +106,13 @@
         color: white;
         text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
         margin-bottom: 2rem;
+    }
+
+    @media (max-width: 768px) {
+        .hero {
+          background-position: center; /* Center the image */
+          background-size: cover; /* Ensure it fills the container */
+        }
     }
 
     .text-overlay {
