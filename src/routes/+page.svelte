@@ -117,20 +117,6 @@
       font-size: 3.2rem;
     }
 
-    @media (max-width: 768px) {
-        .hero {
-          height: 68vh;
-          background-position: center;
-          background-size: cover; /* Ensure it fills the container */
-        }
-        .hero h1 {
-          font-size: 3rem;
-        }
-        .text-overlay {
-          top: 7rem;
-        }
-    }
-
     /* Splide slide styles */
     :global(.splide__slide) {
       display: flex;
@@ -168,6 +154,20 @@
       text-align: center;
       padding: 2rem 0;
       width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        .hero {
+          height: 68vh;
+          background-position: center;
+          background-size: cover; /* Ensure it fills the container */
+        }
+        .hero h1 {
+          font-size: 3rem;
+        }
+        .text-overlay {
+          top: 9rem;
+        }
     }
 </style>
 
