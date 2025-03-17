@@ -18,7 +18,7 @@ const config = {
 			precompress: false
 		}),
 		paths: {
-			base: '/eliot-quartet'
+			base: process.env.NODE_ENV === 'production' ? '/eliot-quartet' : ''
 		}
 	}
 };
