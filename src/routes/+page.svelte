@@ -85,7 +85,7 @@
 
     .down-arrow i {
         color: white; /* White arrow */
-        font-size: 24px; /* Adjust icon size */
+        font-size: 20px; /* Adjust icon size */
     }
 
     /* Hover effect */
@@ -110,9 +110,12 @@
 
     @media (max-width: 768px) {
         .hero {
-          height: 70vh;
+          height: 68vh;
           background-position: center; /* Center the image */
           background-size: cover; /* Ensure it fills the container */
+        }
+        .hero h1 {
+          font-size: 3rem;
         }
     }
 
@@ -148,8 +151,7 @@
     }
 
     .hero h1 {
-      font-size: 3.5rem;
-      font-weight: bold;
+      font-size: 3.2rem;
     }
 
     .about h2, .contact h2 {
