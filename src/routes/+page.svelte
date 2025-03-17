@@ -111,7 +111,7 @@
     @media (max-width: 768px) {
         .hero {
           height: 68vh;
-          background-position: center; /* Center the image */
+          background-position: center;
           background-size: cover; /* Ensure it fills the container */
         }
         .hero h1 {
