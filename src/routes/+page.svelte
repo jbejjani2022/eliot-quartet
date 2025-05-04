@@ -10,7 +10,9 @@
       'quartet4.jpg',
       'quartet5.jpg',
       'quartet6.jpg',
-      'quartet7.jpg'
+      'quartet7.jpg',
+      'quartet8.jpg',
+      'quartet9.jpg'
     ];
 
     // Gallery carousel config
@@ -110,11 +112,12 @@
 
     .text-overlay {
         position: absolute;
-        top: 12rem;
+        top: 10rem;
     }
 
     .hero h1 {
-      font-size: 3.2rem;
+      font-size: 3.5rem;
+      font-weight: 450;
     }
 
     /* Splide slide styles */
@@ -163,7 +166,8 @@
           background-size: cover; /* Ensure it fills the container */
         }
         .hero h1 {
-          font-size: 3rem;
+          font-size: 3.1rem;
+          font-weight: 450;
         }
         .text-overlay {
           top: 9rem;
@@ -181,7 +185,7 @@
 
 <section class="section about" id="about-section">
     <h2>About Us</h2>
-    <p>We are a passionate group of Harvard musicians dedicated to bringing beautiful chamber music to a variety of events and occasions.</p>
+    <p>We are a group of Harvard musicians passionate about bringing beautiful chamber music to a variety of events and occasions.</p>
     <br>
     <p>Joey Bejjani - Violin</p>
     <p>Renée Perpignan - Violin</p>
