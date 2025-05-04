@@ -220,5 +220,5 @@
   </Splide>
 
 <footer class="footer">
-    <p>&copy; {new Date().getFullYear()} The Eliot Quartet.</p>
+    <p>&copy; {new Date().getFullYear()} The Eliot Quartet</p>
 </footer>
