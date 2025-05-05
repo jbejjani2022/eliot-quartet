@@ -11,8 +11,7 @@
       'quartet5.jpg',
       'quartet6.jpg',
       'quartet7.jpg',
-      'quartet8.jpg',
-      'quartet9.jpg'
+      'quartet8.jpg'
     ];
 
     // Gallery carousel config
