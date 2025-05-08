@@ -158,6 +158,43 @@
       width: 100%;
     }
 
+    .social-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .social-links a {
+      color: white;
+      filter: invert(1);
+      transition: opacity 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .email-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .social-links a:hover {
+      opacity: 0.8;
+    }
+
+    .phone {
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .quartet-name {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
     @media (max-width: 768px) {
         .hero {
           height: 68vh;
@@ -195,6 +232,7 @@
 <section class="section contact">
     <h2>Contact</h2>
     <p>Request us for your event by sending an email to <a href="mailto:jbejjani@college.harvard.edu">jbejjani@college.harvard.edu</a> or calling +1 (201) 492-1440.</p>
+    <p>You can also find us on Instagram <a href="https://www.instagram.com/theeliotquartet/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">@theeliotquartet</a>.</p>
 </section>
 
 <Splide 
@@ -219,5 +257,14 @@
   </Splide>
 
 <footer class="footer">
-    <p>&copy; {new Date().getFullYear()} The Eliot Quartet</p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/theeliotquartet/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="/instagram.svg" alt="Instagram" width="28" height="28">
+        </a>
+        <a href="mailto:jbejjani@college.harvard.edu" aria-label="Email" class="email-link">
+            <img src="/email.svg" alt="Email" width="36" height="36">
+        </a>
+    </div>
+    <p class="phone">+1 (201) 492-1440</p>
+    <p class="quartet-name">The Eliot Quartet</p>
 </footer>
