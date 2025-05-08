@@ -1,5 +1,6 @@
 <script>
     import '../app.css';
+    import { base } from '$app/paths';
     import { Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/svelte-splide/css';
 
@@ -162,7 +163,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 2rem;
+      gap: 1rem;
       margin-bottom: 1rem;
     }
 
@@ -259,10 +260,10 @@
 <footer class="footer">
     <div class="social-links">
         <a href="https://www.instagram.com/theeliotquartet/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <img src="/instagram.svg" alt="Instagram" width="28" height="28">
+            <img src="{base}/instagram.svg" alt="Instagram" width="28" height="28">
         </a>
         <a href="mailto:jbejjani@college.harvard.edu" aria-label="Email" class="email-link">
-            <img src="/email.svg" alt="Email" width="36" height="36">
+            <img src="{base}/email.svg" alt="Email" width="40" height="40">
         </a>
     </div>
     <p class="phone">+1 (201) 492-1440</p>
