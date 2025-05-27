@@ -222,18 +222,18 @@
 
 <section class="section about" id="about-section">
     <h2>About Us</h2>
-    <p>We are a group of Harvard musicians passionate about bringing beautiful chamber music to a variety of events and occasions.</p>
+    <p>We are a group of Harvard musicians passionate about bringing chamber music to a variety of events and occasions.</p>
     <br>
     <p>Joey Bejjani - Violin</p>
     <p>Renée Perpignan - Violin</p>
     <p>Miller MacDonald - Cello</p>
-    <p>Masako Yang / Moshi Tang - Viola</p>
+    <p>Moshi Tang / Masako Yang - Viola</p>
 </section>
 
 <section class="section contact">
     <h2>Contact</h2>
-    <p>Request us for your event by sending an email to <a href="mailto:jbejjani@college.harvard.edu">jbejjani@college.harvard.edu</a> or calling +1 (201) 492-1440.</p>
-    <p>You can also find us on Instagram <a href="https://www.instagram.com/theeliotquartet/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">@theeliotquartet</a>.</p>
+    <p>Request us for your event by emailing <a href="mailto:jbejjani@college.harvard.edu">jbejjani@college.harvard.edu</a>.</p>
+    <p>Find us on Instagram <a href="https://www.instagram.com/theeliotquartet/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">@theeliotquartet</a>.</p>
 </section>
 
 <Splide 
